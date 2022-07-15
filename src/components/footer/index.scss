@@ -1,0 +1,31 @@
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: #fff;
+  height: 3.833rem;
+
+  .tab-list {
+    height: 100%;
+    font-size: 1.2rem;
+    border-top: 1px solid #f1f1f1;
+    padding: 1.3rem 1rem;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .tab-item {
+      flex: 1;
+      padding: 0.65rem 1.5rem;
+      color: #71777c;
+      text-align: center;
+    }
+
+    .active {
+      color: #007fff;
+    }
+  }
+}

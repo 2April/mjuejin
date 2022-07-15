@@ -1,0 +1,24 @@
+.sub-tag {
+  height: auto;
+  display: flex;
+  align-items: center;
+
+  padding-left: 1.7rem;
+
+  font-size: 1.1rem;
+
+  .sub-tag-item {
+    margin-right: 0.83rem;
+    margin-bottom: 0.75rem;
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+
+    background-color: #fff;
+    color: #8a9aa9;
+  }
+
+  .active {
+    background-color: #007fff;
+    color: #fff;
+  }
+}

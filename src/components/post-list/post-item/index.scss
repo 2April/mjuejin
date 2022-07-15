@@ -1,0 +1,116 @@
+.post-item {
+  background-color: #fff;
+
+  padding: 1rem 1.667rem 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .meta-wrap {
+    display: flex;
+    align-items: center;
+
+    .author {
+      font-size: 1.167rem;
+      line-height: 1.833rem;
+      color: #4e5969;
+    }
+
+    .date {
+      line-height: 1.167rem;
+      font-size: 1.167rem;
+      color: #86909c;
+    }
+
+    .tag-list {
+      display: flex;
+      align-items: center;
+
+      .tag {
+        font-size: 1.167rem;
+        padding: 0 0.667rem;
+        flex-shrink: 0;
+        color: #86909c;
+      }
+
+      .point {
+        width: 2px;
+        height: 2px;
+        border-radius: 50%;
+        background: #4e5969;
+        flex-shrink: 0;
+      }
+    }
+  }
+
+  .title {
+    margin: 0.667rem 0;
+  }
+
+  .content-wrap {
+    width: 100%;
+    padding-bottom: 0.833rem;
+    margin-top: 0.2rem;
+    display: flex;
+    border-bottom: 1px solid #e5e6eb;
+    align-items: center;
+
+    .main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      .title {
+        font-weight: 700;
+        font-size: 1.333rem;
+        line-height: 2rem;
+        color: #1d2129;
+
+        width: 100%;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+      }
+
+      .abstract {
+        margin-bottom: 0.833rem;
+        color: #86909c;
+        font-size: 1.1rem;
+        line-height: 1.833rem;
+        display: -webkit-box;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+      }
+
+      .info-list {
+        display: flex;
+        align-items: center;
+
+        .item {
+          margin-right: 1.667rem;
+          font-size: 1.1rem;
+          line-height: 1.667rem;
+          color: #4e5969;
+
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    img {
+      flex: 0 0 auto;
+      width: 120px;
+      height: 80px;
+      margin-left: 10px;
+      background-color: #fff;
+      border-radius: 2px;
+    }
+  }
+}

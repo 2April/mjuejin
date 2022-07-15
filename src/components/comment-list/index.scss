@@ -1,0 +1,24 @@
+.comment-list {
+
+  padding: 1.5rem 0;
+
+  .title {
+    line-height: 2rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #1d2129;
+    width: 100%;
+    padding-bottom: 8px;
+  }
+}
+
+.comment-list::before {
+    content: "";
+    position: relative;
+    top: -1.5rem;
+    left: -2rem;
+    display: block;
+    height: 2px;
+    width: 100vw;
+    background: #e5e6eb;
+}

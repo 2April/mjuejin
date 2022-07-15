@@ -1,0 +1,58 @@
+.comment-item {
+  display: flex;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e6eb;
+
+  .avatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+  }
+
+  .comment-content {
+    flex: 1 1 auto;
+    
+    .main {
+
+      .meta {
+        display: flex;
+        align-items: center;
+
+        .user-name {
+          font-weight: 500;
+          font-size: 1.167rem;
+          color: #1d2129;
+        }
+
+        .date {
+          font-size: 1.167rem;
+          color: #86909c;
+        }
+      }
+      
+      .content {
+        margin: .8rem 0;
+        font-size: 1.167rem;
+        line-height: 1.833rem;
+        color: #4e5969;
+        margin-top: 0.667rem;
+      }
+
+      .info-list {
+        display: flex;
+        align-items: center;
+
+        .item {
+          display: flex;
+          align-items: center;
+
+          margin-right: 1.667rem;
+          font-size: 1.1rem;
+          line-height: 1.667rem;
+          color: #86909c;
+        }
+      }
+    }
+  }
+}

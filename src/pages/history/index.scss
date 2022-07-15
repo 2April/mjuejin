@@ -1,0 +1,28 @@
+.history {
+  min-height: calc(100vh - 7.666rem);
+  margin: 4.833rem 0;
+
+  .header {
+    position: fixed;
+    top: 0;
+
+    background-color: #fff;
+    width: 100%;
+    height: 3.833rem;
+    line-height: 3.833rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #404040;
+    text-align: center;
+  }
+
+  .post-list {
+    .post-item {
+      margin-bottom: 1rem;
+
+      .content-wrap {
+        border: none;
+      }
+    }
+  }
+}
